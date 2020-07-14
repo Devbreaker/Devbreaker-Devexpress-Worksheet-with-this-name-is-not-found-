@@ -28,7 +28,7 @@ namespace WindowsFormsApp4
             spreadsheetControl.LoadDocument(path);
             spreadsheetControl.BeginUpdate();
             IWorkbook workbook = spreadsheetControl.Document;
-            string sheetName = $"TEST_TEST";
+            string sheetName = $"Test_Test";
             Worksheet worksheet = workbook.Worksheets["Sample"];
          
             spreadsheetControl.SaveDocument();
